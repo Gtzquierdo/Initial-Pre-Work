@@ -4,36 +4,36 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+Browser finds the address of the server from the DNS serer. Then the browser sends an HTTP request to the server for the website to be sent to the client. Data as well will be sent between the two (client and server). If the server approves and the site exists then you'll get a 200 code which just means the website and it's data will be sent to client. Then the browser puts the data packets together and the website is present on the browser.
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+Once the user (client) puts in a request the data comes back from the IP address in data packets (small chunks) which then the browser displays.
 
 ## What code is rendered in the browser?
 
-put your answer here
+HTML
 
 ## What is the server-side code’s main function?
 
-put your answer here
+Main function would be to process the client request and post back to the server. Example would be user validation.
 
 ## What is the client-side code’s main function?
 
-put your answer here
+Main function would be to change elements without reaching out to the database.
 
 ## What is runtime?
 
-put your answer here
+A module that provides info about the extension and environment it's running in. As well as provides messaging APIs.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+I'm not quite sure how to answer this question because there are many files we can add to these folders. I believe most of the assets are the one listed then we would add subfolders as we see fit. Then individual files, for example in React each component can have their own file.
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+Again not sure how to answer this or if I'm answering it correctly but examples of server-side code are PHP and Python. It can produce a decrease in performance as well with posting and processing requests. 
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+I'm not positive if I understand the question and how to answer it; however, I've worked with databases and have connected 2 and more databases to an application.
