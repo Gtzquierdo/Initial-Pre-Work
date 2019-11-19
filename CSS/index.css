@@ -33,3 +33,18 @@ a {
     width: 1024px;
     margin: auto;
 }
+
+#main-bio,
+#contact-info,
+#bio-image,
+#summary {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
