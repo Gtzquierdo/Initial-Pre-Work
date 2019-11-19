@@ -1,61 +1,13 @@
-nav {
-    background-color: aqua;
-    overflow: hidden;
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: white;
 }
-nav a {
-    float: left;
-    color: rgb(205, 107, 224);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: solid;
-    font-size: 17px;
-}
-.dropbtn {
-    float: right;
-    color: rgb(205, 107, 224);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: solid;
-    font-size: 17px;
-}
-h1 {
-    text-align: center;
-    display: block;
-    padding: 20px;
-    margin: 20px;
-}
-h3 {
-    text-align: center;
-}
-section {
-    display: block;
-    float: left;
-    width: 495px;
-    height: 267px;
-    overflow: hidden;
-    text-align: center;
-}
-.lastOne {
-    left: 0%;
-    bottom: 0%;
-    width: 100%;
-    text-align: center;
-}
-aside {
-    display: block;
-    float: right;
-    width: 40%;
-    height: 267px;
-    overflow: hidden;
-    text-align: center;
-}
-footer {
-    position: fixed;
-    left: 0%;
-    bottom: 0%;
-    width: 100%;
-    padding: 30px 0;
-    clear: both;
-    text-align: center;
-    border-top: 8px solid orange;
+
+header {
+    background: #333;
 }
